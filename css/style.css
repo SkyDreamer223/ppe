@@ -20,19 +20,27 @@ nav{
     height:5rem;
     width: 100%;
 }
-nav::after{
-    content: url("../asset/loop.png");
-}
+nav li a {
+    display: block;
+    color:#222;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
 ul{
     list-style: none;
     text-align: center;
-
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 nav li{
     vertical-align: auto;
     display: inline-block;
     padding: 0 2rem;
     font-size: 2rem;
+    
 }
 
 
