@@ -16,7 +16,7 @@
                 <li><a href="#">MAGAZINE</a></li>
                 <li><a href="#guides">INFO LIVE</a></li>
                 <li><a href="#reser">RESERVATION</a></li>
-                <li><a href="#"><img src="./asset/loop.png" alt="loop"></a></li>
+                <!--<li><a href="#"><img src="./asset/loop.png" alt="loop"></a></li>-->
             </ul>
         </nav>
         <div class="container"></div>
