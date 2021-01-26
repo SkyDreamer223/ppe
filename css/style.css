@@ -1,31 +1,36 @@
 html{
     scroll-behavior: smooth;
 }
+/* ---------------------------- HEADER ---------------------------------------------------------- */
 header{
+    display: flex;
     position: fixed;
-    height: 5rem;
+    height: 6.7rem;
     width: 100%;
     top: 0;
-    overflow: hidden;
     z-index: 10;
     background-color:rgba(255,255,255,.5);
+    place-items: center;
 }
 .logo{
     cursor: pointer;
-    margin-left: 1rem;
+    margin: auto 1rem;
     height: 5rem;
     float: left;
 }
 nav{
-    height:5rem;
+    height:6.8rem;
     width: 100%;
+    border: 1px solid yellow;
 }
 nav li a {
+    height: 100%;
     display: block;
-    color:#222;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    color:#222;
+    font-weight: 100;
+    font-size: 2rem;
+    padding: 2rem 0;
   }
 
 ul{
@@ -33,24 +38,38 @@ ul{
     text-align: center;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    border: 1px solid blue;
+
 }
+/*.loop{
+    background-image: url("../asset/loop.png");
+    height: 1rem;
+    width: 1rem;
+    display: block;
+}*/
 nav li{
+    width: 13%;
     vertical-align: auto;
     display: inline-block;
-    padding: 0 2rem;
-    font-size: 2rem;
-    
+    border: solid 1px green;
 }
 
+.active{
+    background-color: #333;
+}
+.active a{
+    color: #fff;
+}
 
-nav ul img{
-    height: 100%;
+/*---------------------- BANNER --------------------------------------------------------------------*/
+hr{
+    margin-top: 5rem;
 }
 main{
-    margin-top: 5rem;
+    margin-top: 6.7rem;
 
 }
+
 .banner{
     position: relative;
 
@@ -67,6 +86,7 @@ main{
     font-size: 7.6rem;
     font-weight: bold;
 }
+/*-------------------- FIGURE ---------------------------------------------------------------------------*/
 figure{
     align-items: center;
     display: flex;
@@ -78,22 +98,28 @@ figcaption{
     float: left;
     margin: 0 auto;
 }
+figcaption:not(:last-child){
+    margin-right: 2rem;
+}
 figcaption img{
-    width: 90%;
-    transition: all .3s;
+    width: 100%;
+    transition-duration: all 1s ease-in-out;
     
 }
 figcaption img:hover{
-    transition: all .3s;
+   
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    transition-duration: all 1s smooth;
 }
 figcaption h2{
+    text-align: center;
     font-size: 2rem;
     font-weight: bold;
 }
-hr{
-    margin-top: 5rem;
+figure p{
+    text-align: justify;
 }
+
 
 main h1{
     font-size: 10rem;
@@ -123,7 +149,4 @@ footer ul li{
 footer p {
     padding-bottom: 10rem;
 }
-nav a:hover{
-    background-color: #333;
-    color: #fff;
-}
+
