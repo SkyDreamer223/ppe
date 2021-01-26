@@ -31,11 +31,11 @@
             Guide des stations
         </h1>
 
-        <figure>
+        <section class="grille">
             <?php
                 include_once('./src/bdd.inc.php');
             ?>
-        </figure>
+        </section>
 
     </main>
     <footer id="reser">

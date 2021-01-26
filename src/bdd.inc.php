@@ -11,11 +11,13 @@
         //On affiche chaque resultat
 
         while($donnee = $reponse->fetch()){
-            echo '<figcaption>
+            echo'<figure>
                     <img src="'.$donnee['image'].'" alt="image">
-                    <h2>'.$donnee['titre'].'</h2>
-                    <p>'.$donnee['contenu'].'</p>
-                </figcaption>';
+                    <figcaption>
+                        <h2>'.$donnee['titre'].'</h2>
+                        <p>'.$donnee['contenu'].'</p>
+                    </figcaption>
+                </figure>';
 
         }
         $reponse->closeCursor(); //terminer le traitement

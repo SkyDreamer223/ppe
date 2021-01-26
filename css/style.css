@@ -21,7 +21,7 @@ header{
 nav{
     height:6.8rem;
     width: 100%;
-    border: 1px solid yellow;
+
 }
 nav li a {
     height: 100%;
@@ -38,7 +38,7 @@ ul{
     text-align: center;
     margin: 0;
     padding: 0;
-    border: 1px solid blue;
+
 
 }
 /*.loop{
@@ -51,11 +51,11 @@ nav li{
     width: 13%;
     vertical-align: auto;
     display: inline-block;
-    border: solid 1px green;
+
 }
 
 .active{
-    background-color: #333;
+    background-color: #222222;
 }
 .active a{
     color: #fff;
@@ -87,26 +87,28 @@ main{
     font-weight: bold;
 }
 /*-------------------- FIGURE ---------------------------------------------------------------------------*/
-figure{
+.grille{
     align-items: center;
     display: flex;
     width: 120rem;
     margin: 5rem auto;
     
 }
-figcaption{
+figure{
+    width: 20%;
+    display: block;
     float: left;
     margin: 0 auto;
 }
-figcaption:not(:last-child){
-    margin-right: 2rem;
+figure:not(:last-child){
+    margin-right: 1rem;
 }
-figcaption img{
+figure img{
     width: 100%;
     transition-duration: all 1s ease-in-out;
     
 }
-figcaption img:hover{
+figure img:hover{
    
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
     transition-duration: all 1s smooth;
@@ -116,7 +118,7 @@ figcaption h2{
     font-size: 2rem;
     font-weight: bold;
 }
-figure p{
+figcaption p{
     text-align: justify;
 }
 
@@ -129,7 +131,7 @@ main h1{
     color: #666;
 }
 footer, footer a{
-    background-color: #333;
+    background-color: #222222;
     color: #fff;
     text-align: center;
     margin-top: 2rem;
@@ -137,7 +139,7 @@ footer, footer a{
 footer h2{
     font-size: 5rem;
     font-weight: bold;
-    padding: 20rem 0 7rem 0;
+    padding: 40rem 0 7rem 0;
     text-align: center;
     color: #fff;
     
@@ -147,6 +149,7 @@ footer ul li{
     margin: 0 3rem;
 }
 footer p {
-    padding-bottom: 10rem;
+    margin-top: 2rem;
+    padding-bottom: 40rem;
 }
 
