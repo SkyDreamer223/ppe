@@ -16,7 +16,7 @@
                 <li><a href="#">MAGAZINE</a></li>
                 <li><a href="#guides">INFO LIVE</a></li>
                 <li><a href="#reser">RESERVATION</a></li>
-                <!-- <li><a href="#"><i class="loop"></a></li> -->
+                <li><a href="#"><img src="./asset/loop.png" alt="rechercher"></a></li>
             </ul>
         </nav>
         <div class="container"></div>
@@ -44,11 +44,11 @@
         </h2>
         <ul>
             <li>Paris</li>
-            <li>Phone +33 07 11 24 33 00</li>
+            <li>Phone: +33 07 11 24 33 00</li>
             <li>Email: mail@gmail.com</li>
-            <li><a href="#">Retour à l'acueil</a></li>
+            <li><a href="#">Retour à l'accueil</a></li>
         </ul>
-        <p>MIT <?php print date('Y'); ?></p>
+        <p>&copy; Design by MIT <?php print date('Y'); ?></p>
     </footer>
     <script src="./js/app.js"></script>
 </body>

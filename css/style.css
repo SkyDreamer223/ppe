@@ -31,6 +31,7 @@ nav li a {
     font-weight: 100;
     font-size: 2rem;
     padding: 2rem 0;
+    overflow: hidden;
   }
 
 ul{
@@ -51,7 +52,11 @@ nav li{
     width: 13%;
     vertical-align: auto;
     display: inline-block;
-
+}
+nav li a img{
+    display:block;
+    height: 2.7rem;
+    margin:0 auto;
 }
 
 .active{
@@ -59,6 +64,9 @@ nav li{
 }
 .active a{
     color: #fff;
+}
+.active a img{
+    filter: invert(100%);
 }
 
 /*---------------------- BANNER --------------------------------------------------------------------*/
@@ -130,6 +138,7 @@ main h1{
     font-weight: bold;
     color: #666;
 }
+/* -------------------- FOOTER ----------------------------------------- */
 footer, footer a{
     background-color: #222222;
     color: #fff;
@@ -146,7 +155,7 @@ footer h2{
 }
 footer ul li{
     display: inline-block;
-    margin: 0 3rem;
+    margin: 0 5rem;
 }
 footer p {
     margin-top: 2rem;
