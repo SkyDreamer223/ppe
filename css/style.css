@@ -155,10 +155,12 @@ footer h2{
 }
 footer ul li{
     display: inline-block;
-    margin: 0 5rem;
+}
+footer ul li:not(:last-child){
+    margin-right: 18rem;
 }
 footer p {
-    margin-top: 2rem;
+    margin-top: 7rem;
     padding-bottom: 40rem;
 }
 
