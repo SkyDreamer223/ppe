@@ -15,7 +15,7 @@
                 <li class="active" ><a href="#">GUIDE DES STATIONS</a></li>
                 <li><a href="#">MAGAZINE</a></li>
                 <li><a href="#guides">INFO LIVE</a></li>
-                <li><a href="#reser">RESERVATION</a></li>
+                <li><a href="#reser">RÉSERVATION</a></li>
                 <li><a href="#"><img src="./asset/loop.png" alt="rechercher"></a></li>
             </ul>
         </nav>
@@ -40,7 +40,7 @@
     </main>
     <footer id="reser">
         <h2>
-            Résérvations
+            Réservations
         </h2>
         <ul>
             <li><i class="fas fa-map-marker"></i> Paris</li>
